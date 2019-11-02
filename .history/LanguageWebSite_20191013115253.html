@@ -1,0 +1,450 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="shortcut icon" href="images/fav.jpg" title="favicon">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- <script src="jquery.min.js"></script> -->
+    <!-- <script src="bootstarp.min.js"></script> -->
+
+    <title>Learn New Language</title>
+</head>
+
+<body class="container-fluid">
+
+
+
+
+
+
+    <div class="row bg-image">
+        <svg viewBox="0 0 960 300">
+            <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="80%"> زبان آموزان</text>
+            </symbol>
+
+            <g class="g-ants">
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+                <use xlink:href="#s-text" class="text-copy"></use>
+            </g>
+        </svg>
+    </div>
+
+    <!-- <div id="alert" class="alert alert-info p-1 m-1">
+        <p class="text-center">به سایت زبان‌آموزان خوش آمدید...</p>
+    </div> -->
+
+    <div class="bs-example">
+            <div id="myModal" class="modal fade" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title  text-info">به سایت زبان آموزان خوش آمدید.</h4>
+                            <h6 class="modal-title  text-info">به سایت زبان آموزان خوش آمدید.</h6>
+                            <button type="button" class="close" data-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label>First Name</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label>Last Name</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label>Comments</label>
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Send Email</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <!--     
+    
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+               
+                <div class="modal-body">
+                    Modal body..
+                </div>
+
+               
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+
+    <div class="modal fade" id="admodal" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="carousel slide" data-ride="carousel" id="adCarousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <h1>This is Slide 1</h1>
+                                <h5>Same is shown of text, but you can use any html content imges, videos, etc inside
+                                    this box</h5>
+                            </div>
+                            <div class="item">
+                                <h1>This is Slide 2</h1>
+                                <h5>You can choose to have carousal or just a single html content</h5>
+                            </div>
+                            <div class="item">
+                                <h1>This is Slide 3</h1>
+                                <h5>Carousal is a good way to show ads, to keep user engaged.</h5>
+                            </div>
+                            <div class="item">
+                                <h1>This is Slide 4</h1>
+                                <h5>Okay</h5>
+                            </div>
+                            <div class="item">
+                                <h1>This is Slide 5</h1>
+                                <h5>Enough, Done !</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal" type="button">No, Close this popup
+                        now.</button><br class="visible-xs">
+                    <br class="visible-xs">
+                    <button class="btn btn-success" type="button">Yes, I would love to click on Ads.</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+    <div class="row" id="">
+        <div class="card  " style="margin-top: 2%">
+            <div class="card-body">
+                <h5 class="card-title card-title-me"> چرا زبان آموز؟ </h5>
+                <p class="card-body-me">در موسسه زبان ایرانمهر هدف آموزشی هر درس از قبل توسط مدرس آن مشخص می‌شود و در
+                    بطن هر
+                    درس حوزه اجتماعی فرهنگی درس در نگاه کلی بررسی می‌گردد و سپس تعاریف درس، مکالمه، کلمات جدید، فونتیک و
+                    قواعد آن آموزش داده می‌شود. رویکرد در این کتاب کاربردی است و فرآیند پیشرفت و ارزیابی در آن حلزونی
+                    است.
+                    اصول حاکم در ALTER EGO 1 بر اساس تمرین‌های ارتباطی و کلامی است. و بر روی موضوعات و حوزه های مختلف
+                    کار
+                    می‌کند و فرآیند یادگیری مرحله‌‌ای را غنی‌تر می‌سازد.</p>
+                <p class="card-body-me">
+                    بر خلاف روش‌های سنتی زبان‌آموزان در انتهای دوره زبان فرانسه ارزیابی نمی‌شوند. یادگیری ضمن تفریح و
+                    ارزیابی مرحله به مرحله است و تمامی بازخوردها در پرونده زبان آموزان یاداشت می‌گردد. موسسه زبان
+                    ایرانمهر
+                    این دوره را طوری طراحی کرده تا از یادگیری زبان‌آموزان اطمینان حاصل کند و تکلیف در منزل نیز طوری
+                    برنامه‌ریزی شده که آن ها نیز بتوانند خود را بسنجند.
+                </p>
+                <button type="button" class="btn btn-outline-info">ادامه ...</button>
+
+            </div>
+            <img src="./images/fl031.jpg" class="card-img-top card-img" alt="">
+        </div>
+    </div>
+
+
+    <div class="row ">
+        <div class="col-md-6">
+            <div class="videoplay ">
+                <video class="img-fluid" autoplay="" loop="" playsinline="" muted="">
+                    <source type="video/mp4" src="images/class03.mp4">
+                </video>
+            </div>
+        </div>
+        <div class="col-md-6 ">
+            <h3 class="text-class">
+                1.زمان مد نظرتو انتخاب کن
+            </h3>
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col-md-6 ">
+            <h3 class="text-class">
+                2.کلاستو انتخاب کن
+            </h3>
+        </div>
+        <div class="col-md-6">
+            <div class="videoplay ">
+                <video class="img-fluid" autoplay="" loop="" playsinline="" muted="">
+                    <source type="video/mp4" src="images/class031.mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="row ">
+        <div class="col-md-6">
+            <div class="videoplay ">
+                <video class="img-fluid" autoplay="" loop="" playsinline="" muted="">
+                    <source type="video/mp4" src="images/class033.mp4">
+                </video>
+            </div>
+        </div>
+        <div class="col-md-6 ">
+            <h3 class="text-class">
+                3. برو کلاس
+            </h3>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:2% ">
+        <div class="card card-box" style="width:30%">
+            <img class="card-img-top" src="./images/cl8.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">دوره های آموزش زبان فرانسه متوسطه بزرگسالان</h4>
+                <p class="card-text">دوره های فشرده نیمه گروهی ( 6 تا 8 نفره )</p>
+                <a href="#" class="btn btn-primary">مشاهده</a>
+            </div>
+        </div>
+
+        <div class="card card-box" style="width:30%">
+            <img class="card-img-top" src="./images/cl9.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">دوره آموزش زبان فرانسه پیش متوسطه کودکان</h4>
+                <p class="card-text">دوره زبان فرانسه پیش متوسطه کودکان (+A2)</p>
+                <a href="#" class="btn btn-primary">مشاهده</a>
+            </div>
+        </div>
+
+        <div class="card card-box" style="width:30%">
+            <img class="card-img-top" src="./images/cl10.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">دوره زبان فرانسه پیشرفته بزرگسالان</h4>
+                <p class="card-text">دوره زبان فرانسه پیش متوسطه</p>
+                <a href="#" class="btn btn-primary">مشاهده</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row bg">
+        <h3 class="h1-list" data-shadow='dang!'>کلاسهای پاییز</h3>
+    </div>
+
+
+
+    <table class="table table-hover table-me">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">روزهای هفته</th>
+                <th scope="col">کلاس</th>
+                <th scope="col">استاد</th>
+                <th> انتخاب</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>شنبه</td>
+                <td>زبان فرانسه</td>
+                <td>دکتر رضایی</td>
+                <td>
+                    <button type="button" class="btn btn-outline-warning">مشاهده</button>
+                </td>
+
+
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>یکشنبه</td>
+                <td>زبان فرانسه</td>
+                <td>دکتر رضایی</td>
+                <td>
+                    <button type="button" class="btn btn-outline-warning">مشاهده</button>
+                </td>
+
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>دوشنبه</td>
+                <td>زبان فرانسه</td>
+                <td>دکتر رضایی</td>
+                <td>
+                    <button type="button" class="btn btn-outline-warning">مشاهده</button>
+                </td>
+
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>سه شنبه</td>
+                <td>زبان فرانسه</td>
+                <td>دکتر رضایی</td>
+                <td>
+                    <button type="button" class="btn btn-outline-warning">مشاهده</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>چهارشنبه</td>
+                <td>زبان فرانسه</td>
+                <td>دکتر رضایی</td>
+                <td>
+                    <button type="button" class="btn btn-outline-warning">مشاهده</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>پنجشنبه</td>
+                <td>زبان فرانسه</td>
+                <td>دکتر رضایی</td>
+                <td>
+                    <button type="button" class="btn btn-outline-warning">مشاهده</button>
+                </td>
+
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>جمعه</td>
+                <td>زبان فرانسه</td>
+                <td>دکتر رضایی</td>
+                <td>
+                    <button type="button" class="btn btn-outline-warning">مشاهده</button>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+
+    <button class="open-button" onclick="openForm()">پشتیبانی آنلاین</button>
+
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h5 class="text-right"> پشتیبانی زبان‌آموزان </h5>
+
+            <label for="msg"><b> در خدمت شماست:</b></label>
+            <textarea placeholder="متن ارسالی ..." name="msg" required></textarea>
+
+            <button type="submit" class="btn">ارسال</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">بستن</button>
+        </form>
+    </div>
+
+
+
+    <footer class="footer container-fluid">
+        <div class="footer-middle">
+            <div class="">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6  ">
+
+                        <div class="footer-pad">
+                            <h4>راه های ارتباطی</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"></a></li>
+                                <li><a href="#">شماره تماس</a></li>
+                                <li><a href="#">مشاوره حضوری</a></li>
+                                <li><a href="#">ادرس ایمیل</a></li>
+                                <li><a href="#">شبکه اجتماعی</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-sm-6 ">
+
+                        <div class="footer-pad">
+                            <h4> خواندیها برای شما</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"> معرفی دیشکنری </a></li>
+                                <li><a href="#">معرفی فیلم</a></li>
+                                <li><a href="#">معرفی نرم افزار</a></li>
+                                <li><a href="#">معرفی داستان</a></li>
+                                <li><a href="#">معرفی سایت</a></li>
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12 copy">
+                        <p class="text-center">&copy; حقوق مادی و معنوی سایت محفوظ است.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+        // $(document).ready(function () {
+        //     setTimeout(function () {
+        //         $('#myModal').slideDown('slow');
+
+        //         // var alert = $('#alermyModalt');
+        //         // alert.animate({ fontSize: '3em', right: '99%', opacity: '.1' }, "slow");
+
+        //     });
+        // })
+
+
+        $(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+    </script>
+
+</body>
+
+</html>
